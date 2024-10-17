@@ -1,16 +1,12 @@
+import React from "react";
+import Form from "./components/Form";
 
-import './App.css'
-
-function App() {
-
+const App = () => {
   return (
-    <>
-      <main>
-        <h1>Seja bem vindo! :)</h1>
-        <p>Terceiro Desafio: Formulário de Cadastro de Membros</p>
-      </main>
-    </>
+   <div className="bg-dark min-h-screen overflow-hidden">
+     <Form />
+   </div>
   );
-}
+};
 
 export default App
