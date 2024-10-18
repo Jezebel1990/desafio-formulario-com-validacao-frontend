@@ -1,5 +1,59 @@
+# Formulário de Cadastro de Novos Membros  | Projeto Frontend Fusion
 
-# Terceiro Desafio: Formulário de Cadastro de Membros - Processo Seletivo Frontend Fusion - [vaga voluntária]
+> Este projeto é um formulário de cadastro de novos membros para o projeto Frontend Fusion, utilizando React para a construção da interface, e Zod para a validação dos dados, assegurando que todas as informações fornecidas sejam validadas corretamente. O formulário inclui campos para nome, e-mail, telefone, cargo pretendido, LinkedIn e GitHub, com os dados sendo armazenados localmente no navegador via Local Storage. O projeto também incorpora animações interativas com Framer Motion, proporcionando uma experiência de usuário mais dinâmica e fluida.
+
+![Design sem nome (1)](https://github.com/user-attachments/assets/24a47d39-ed73-4f35-b0be-49b7468b0376)
+
+## Tecnologias Utilizadas
+- [React.js](https://react.dev/): Biblioteca JavaScript para a construção de interfaces de usuário.
+- [Tailwind CSS](https://tailwindcss.com/): Framework de CSS para o design responsivo e estilização da interface.
+- [Framer Motion](https://www.framer.com/motion/): Biblioteca para criar animações fluidas e interativas na interface.
+- [Zod](https://zod.dev/): Validação de dados para garantir a conformidade com as regras definidas.
+- Local Storage.
+- [Storybook](https://storybook.js.org/): Ferramenta para construção de componentes de interface de maneira isolada, permitindo o desenvolvimento e a documentação dos componentes.
+
+
+## Funcionalidades
+- Validação dos campos de formulário (nome, e-mail, telefone e cargo pretendido).
+- Animações em elementos como botões, seções e textos.
+- Armazenamento dos dados do usuário localmente no navegador.
+- Feedback de sucesso ou erro no cadastro.
+Este projeto é escalável e preparado para integração com um back-end, se necessário.
+
+
+
+## Como Rodar o Projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/Jezebel1990/desafio-formulario-com-validacao-frontend.git
+   cd desafio-formulario-com-validacao-frontend
+   ```
+2. Instale as dependências:
+  ```bash
+    npm install
+   ```
+3. Execute o projeto em desenvolvimento:
+  ```bash
+    npm run dev
+   ```
+4. Abra o navegador em http://localhost:5173 para ver a aplicação.
+
+
+## Documentação do Storybook:
+A documentação dos componentes está disponível no [Storybook do projeto](https://doc-form.netlify.app/?path=/docs/processo-de-desenvolvimento-do-formul%C3%A1rio--docs). Essa documentação permite explorar visualmente os componentes individuais do projeto, oferecendo exemplos de uso, propriedades aceitas e estados visuais para facilitar o desenvolvimento e a manutenção da interface.
+
+## Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
+
+Feito com ♥ por [Jezebel Guedes](https://www.linkedin.com/in/jezebel-guedes/) 👋 Entre em contato!
+
+<hr />
+<br />
+<br /> 
+
+# Instruções 
+> Terceiro Desafio: Formulário de Cadastro de Membros - Processo Seletivo Frontend Fusion - [vaga voluntária]
 
 > OBS : Você receberá um e-mail com a data de início dos desafios, mas eles já estão disponíveis para acesso imediato. 
 Se ainda não preencheu o formulário, por favor, acesse o link para completá-lo.
