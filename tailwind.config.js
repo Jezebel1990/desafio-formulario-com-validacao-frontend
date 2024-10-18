@@ -4,11 +4,11 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  
   theme: {
     // Definições de fontes personalizadas
     fontFamily: {
-      sans: ['Helvetica', 'Arial', 'sans-serif'], // Exemplo de fonte sans-serif
-      serif: ['Georgia', 'serif'],               // Exemplo de fonte serif
+      sans: ['Noto Sans', 'sans-serif']         
     },
     
     // Definições de breakpoints responsivos
@@ -22,18 +22,17 @@ export default {
     // Extensão do tema, para adicionar customizações
     extend: {
       colors: {
-        dark: '#111111', 
-        darkBlue: '#090c11',
-        blueOne: '#063664',
-        bluePool: '#4ce1e5',
-        lightBlue: '#37cfd6'
+        darkBlue: '#33414dcc',  // azul escuro
       },
       
-  
+      // Definição de imagens de fundo personalizadas
+      backgroundImage: {
+        site: "url('/src/assets/site.png')", 
+      },
     },
   },
   
-  
+
   plugins: [],
 }
 
