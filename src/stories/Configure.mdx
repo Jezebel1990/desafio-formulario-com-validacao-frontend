@@ -1,0 +1,55 @@
+import { Meta } from "@storybook/blocks";
+
+<Meta title="Processo de Desenvolvimento do Formulário" />
+
+<div className="sb-container">
+  <div className='sb-section-title'>
+    # Processo de Desenvolvimento do Formulário
+  </div>
+  <div className="sb-section">
+    <div className="sb-section-item">
+    
+    ## 1. Decisão de Usar \`react-hook-form\` e \`zod\`
+        O \`react-hook-form\` foi escolhido para gerenciar os formulários devido à sua leveza e simplicidade na manipulação de estados. 
+          A biblioteca \`zod\` foi adotada para validação de dados por fornecer um esquema flexível e poder ser facilmente integrada com \`react-hook-form\`.
+    
+     ## 2. Animações com \`framer-motion\`
+          As animações foram adicionadas usando \`framer-motion\` para criar uma interface mais interativa e moderna, tornando o formulário visualmente atrativo e acessível.
+
+          ## 3. Design e Responsividade
+          Foi decidido usar um design responsivo para garantir que o formulário se adapte a várias telas, utilizando Tailwind CSS para o layout e personalização rápida.
+
+          ## 4. Salvando Dados no LocalStorage
+          Para simular o salvamento de dados do usuário, optou-se por usar o \`localStorage\`. Isso permite uma experiência simulada de persistência de dados no navegador, em vez de enviar os dados para um backend.
+
+          ## 5. Decisão de Separar Variantes de Animação
+          Para manter o código mais organizado e reutilizável, as variantes de animação foram movidas para um arquivo \`variants.jsx\` separado, promovendo a separação de responsabilidades.
+
+          ## Futuras Melhorias
+          - Integração com um backend real.
+          - Implementação de testes automatizados para garantir a qualidade do código.
+    </div>
+    </div>
+    </div>
+
+<style>
+  {`
+  .sb-container {
+    margin-bottom: 48px;
+  }
+
+  .sb-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .sb-section-title {
+    margin-bottom: 32px;
+  }
+
+   
+  }
+  `}
+</style>

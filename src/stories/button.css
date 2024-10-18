@@ -1,0 +1,63 @@
+.storybook-button {
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 700;
+  line-height: 1;
+  font-family: 'Noto Sans', sans-serif;
+}
+.storybook-button--initial {
+  background-color: #ca8a04;
+  color: white;
+  transform: scale(1);
+  
+}
+
+
+.storybook-button {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.storybook-button--hover {
+  transform: scale(1.1);
+  background-color: #eab308; 
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  color: white;
+}
+
+.storybook-button--tap {
+  transform: scale(0.9);
+  background-color: #ca8a04;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  color: white;
+}
+
+.storybook-button--small {
+  padding: 10px 16px;
+  font-size: 12px;
+  
+}
+.storybook-button--medium {
+  padding: 10px 75px;
+  font-size: 14px;
+}
+.storybook-button--large {
+  padding: 10px 150px;
+  font-size: 16px;
+}
+
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 8px; 
+}
+
+.button-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
