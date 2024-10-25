@@ -71,7 +71,7 @@ const Form = () => {
             variants={sentence}
             initial="hidden"
             animate="visible"
-            className="text-2xl uppercase text-white font-bold text-center mb-2"
+            className="text-base md:text-2xl uppercase text-white font-bold text-center mb-2"
           >
             {heading.split('').map((char, index) => (
               <motion.span key={index} variants={letter}>
